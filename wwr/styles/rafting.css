@@ -289,3 +289,166 @@ section p {
     height: 50px;
 
 }
+
+/* ===== HOME PAGE ONLY STYLES ===== */
+.home main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* CTA section styling */
+.home main section:first-of-type {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.home main section:first-of-type a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #335C67;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home main section:first-of-type a:hover {
+    background-color: #627793;
+}
+
+/* Grid-style section (Why Choose Us) */
+.home main section:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.home main section:nth-of-type(2) h2 {
+    grid-column: span 2;
+}
+
+/* Newsletter section */
+.home main section:last-of-type {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form improvements */
+.home .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.home .contact-form input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.home .contact-form button {
+    background-color: #335C67;
+    color: white;
+    border-radius: 5px;
+}
+
+.home .contact-form button:hover {
+    background-color: #627793;
+}
+
+.trips main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* CTA */
+.trips .cta {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.trips .cta a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #335C67;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trips .cta a:hover {
+    background-color: #627793;
+}
+
+/* Trip Cards */
+.trips .trip-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    background-color: #E8F6F9;
+}
+
+.trips .trip-cards h2 {
+    grid-column: span 3;
+}
+
+.trips .trip {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.trips .trip img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Table */
+.trips .trip-table {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.trips table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.trips th,
+.trips td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.trips th {
+    background-color: #335C67;
+    color: white;
+}
+
+.trips tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trips {
+    color: #333;
+    /* dark readable text */
+}
+
+.trips h1,
+.trips h2,
+.trips h3,
+.trips p {
+    color: #333;
+}
